@@ -52,7 +52,7 @@ ul > li {
 .hero button { 
     background-color:#3882f6 ;
     border: 1px solid #3882f6;
-    border-radius:13px;
+    border-radius:9px;
     color: white; 
     padding: 5px 20px; 
     font-size: 15px;
@@ -142,4 +142,51 @@ ul > li {
     position: relative;
     left: 250px; 
     font-size: 20px;
+}
+
+.signup { 
+    background-color: white;
+    margin-top: -50px;
+    height: 400px;
+    justify-content: center;
+    position: relative;
+    text-align: left;
+}
+
+.inner { 
+    background-color: #3882f6;
+    position: relative;
+    width: 900px;
+    color: #e5e7eb; 
+    font-size: 18px;
+    left: 500px;
+    top: 125px;
+    border: 1px solid #3882f6;
+    border-radius: 10px; 
+    justify-content: center; 
+    padding-left: 100px;
+}
+
+.inner h4 { 
+    padding-bottom: -50px; 
+}
+
+.inner button { 
+    background-color:#3882f6 ;
+    border: 1px solid white; 
+    border-radius:9px;
+    color: white; 
+    padding: 5px 20px; 
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    left: 600px;
+    bottom: 60px;
+}
+
+footer {  
+    font-size: 18px;
+    color:#e5e7eb;
+    text-align: center;
+    padding-top: 50px;
 }
