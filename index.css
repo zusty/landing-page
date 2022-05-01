@@ -9,7 +9,7 @@ body {
     font-size: 24px;
     color: #f9faf8;
     position: relative; 
-    margin-left: 150px; 
+    margin-left: 450px; 
     margin-top: 10px;
 } 
 
@@ -20,7 +20,7 @@ body {
     top: 0px; 
     right: 0px; 
     font-size: 18px;
-    margin-right: 20px;
+    margin-right: 550px;
 }
 
 ul > li { 
@@ -29,8 +29,9 @@ ul > li {
 }
 
 .hero { 
-    margin-left: 150px; 
+    margin-left: 450px; 
     margin-top: 100px;
+    margin-bottom: 100px;
     position: relative; 
 }
 
@@ -61,21 +62,57 @@ ul > li {
 
 
 .placeholder { 
-    background-color: darkgrey;
+    background-color: grey;
     height: 200px;
-    width: 500px; 
-    text-align: center;
+    width: 450px; 
     position: absolute;
-    right: 25px;
-    top: 25px; 
+    right: 30%; 
+    top: 10%; 
 } 
 
 .placeholder p { 
-    text-align: center;
-    padding: 100px 0; 
+    justify-content: center;
+    padding: 110px 0; 
 }
 
 .midsection { 
-    background-color: #e5e7eb;
+    background-color: #e5e7eb; 
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    
+    
+}
 
+
+.midsection h2 { 
+    font-size: 36px;
+    font-weight: bolder;
+    margin-left: 35%;
+    padding-top: 25px;
+    width: 50%;  
+    height: 25px; 
+    position: absolute;
+}
+
+.image { 
+    margin-left: -50px; 
+    margin-right: -50px;
+    border: 5px solid #3882f6;
+    border-radius: 10%;
+    width: 9%;
+    position: relative;
+    height: 150px; 
+    top: 150px; 
+    left: 500px; 
+
+}
+
+.midsection p { 
+    position: relative; 
+    top: 300px; 
+    left: 375px; 
+    width: 8%; 
+    text-align: center;
 }
